@@ -1,0 +1,18 @@
+h3 {
+    font-size: 25px !important;
+}
+.btn-success:hover{
+background-color: rgb(174, 236, 216);
+}
+.btn-info:hover{
+    background-color: cornflowerblue;
+}
+canvas{
+animation-name: coloresneon;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes coloresneon {
+    from{box-shadow: 2px 2px 20px rgb(207, 244, 42);}
+to {box-shadow: 2px 2px 20px rgb(60, 171, 240);}
+} 
